@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	padding: 0;
+    background-image: url(background.jpg);
+	background-attachment: fixed; 
+}
+/* отступы, цвет шрифта, высота*/
+header {
+	height: 70px;
+	background-color: rgb(33, 33, 33);
+	margin-top: 251px;
+	margin-left: 175px; /*отступы сбоку=white*/
+	margin-right: 175px;
+	margin-bottom: 0px;
+	color: white;
+}
+/* большая надпись */
+.main {
+	padding-left: 51px;
+	padding-right: 51px;
+	line-height: 70px;
+	font-size: 44px;
+	font-family: Proxima;
+	display: inline-block;
+}
+/* надписи в заглавии и ниже: отступ, размер шрифта, отображение в строчку*/
+span {
+	padding-top: 34px; 
+	padding-bottom: 27px;
+	padding-right: 27px;
+	font-size: 14px;
+	display: inline-block;
+}
+/* надписи в заглавии*/
+.head {
+	color: white;
+	font-family: Proxima;
+	text-decoration: none;
+}
+/* основной фоновый блок сайта: длина, цвет, отступы по бокам */
+.white {
+	height: 1000px;
+	background-color: rgb(242, 242, 242);
+	margin-left: 175px;
+	margin-right: 175px;
+	margin-bottom: 0px;
+}
+/* левая надпись меню: так же как и в классе menu + отступ слева */
+.left {
+	color: rgb(0, 0, 0);
+	font-family: Proxima;
+	text-decoration: none;
+	padding-left: 51px;
+}
+/* меню: цвет надписей, шрифт, убрала подчёркивание ссылок */
+.menu {
+    color: rgb(0, 0, 0);
+	font-family: Proxima;
+	text-decoration: none;
+}
+/* смена цвета: крайняя надпись в меню */
+.left:hover {
+	color: rgb(71, 179, 172);
+}
+/* смена цвета: меню */
+.menu:hover {
+	color: rgb(71, 179, 172);
+}
+/* смена цвета: ссылки в заглавии */
+.head:hover {
+	color: rgb(71, 179, 172);
+}
+
+
+.search {
+	display: inline-block;
+    vertical-align: middle;
+	padding-left: 200px;
+	overflow: hidden; /* ХЗХЗХЗ */
+}
+/* подключила шрифт 
+
+<path style="fill:white" - цвет иконки
+*/
+@font-face {
+	font-family: Proxima;
+	src: url(ProximaNova-Bold.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+
